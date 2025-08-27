@@ -1,0 +1,25 @@
+{
+  "name": "ai-web3-whatsapp-escrow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean",
+    "deploy:amoy": "hardhat run scripts/deploy.ts --network amoy",
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm run build",
+    "start": "cd web && npm run start"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "@types/chai": "^4.3.11",
+    "@types/node": "^20.12.12",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}

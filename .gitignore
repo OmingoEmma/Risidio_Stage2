@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+.env*.local
+cache/
+artifacts/
+coverage/
+typechain/
+typechain-types/
+dist/
+web/.next/
+web/node_modules/
+web/.env*
+docs/screenshots/*
+.DS_Store
